@@ -1,0 +1,13 @@
+body {
+    background-color: #131416;
+}
+
+img {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.cocktail {
+    width: 50%;
+    color: white;
+}
