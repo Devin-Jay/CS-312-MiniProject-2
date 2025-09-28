@@ -25,6 +25,10 @@
                 <%=locals.cocktail["strInstructions"]%>
             </p>
             <img class="cocktail" src="<%=locals.cocktail["strDrinkThumb"]%>">
+        <% } else if (locals.error) {%>
+            <p>
+                <%=locals.error%>
+            </p>
         <% } %>
     </div>
 </body>

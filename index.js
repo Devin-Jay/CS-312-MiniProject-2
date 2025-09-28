@@ -20,7 +20,7 @@ app.post("/submit", async (req, res) => {
 
         res.render("index.ejs", {cocktail : cocktail});
     } catch (error) {
-        console.error("error");
+        res.render("index.ejs", {error : "There was an error."});
     }
 });
 
